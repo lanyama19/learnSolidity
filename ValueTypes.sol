@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 contract ValueTypes{
-    // 布尔值
+    // boolean type
     bool public _bool = true;
-    // 布尔运算
+    // boolean operators
     bool public _bool1 = !_bool; //取非
     bool public _bool2 = _bool && _bool1; //与
     bool public _bool3 = _bool || _bool1; //或
