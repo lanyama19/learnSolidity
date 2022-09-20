@@ -23,7 +23,7 @@ contract ValueTypes{
 
 
     // 地址
-    address public _address = 0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71;
+    address public _address = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
     address payable public _address1 = payable(_address); // payable address，可以转账、查余额
     // 地址类型的成员
     uint256 public balance = _address1.balance; // balance of address
